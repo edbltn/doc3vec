@@ -32,7 +32,7 @@ class Doc3Vec(object):
         self.vector_size = vector_size
         self.window = window
         self.negative = negative
-        self.copute_loss = compute_loss
+        self.compute_loss = compute_loss
         self.dm = dm
         self.workers = workers
         
